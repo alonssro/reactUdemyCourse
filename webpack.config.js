@@ -1,3 +1,5 @@
+const dotenv = require('dotenv')
+
 module.exports = {
   entry: ['./src/index.jsx'],
   output: {
