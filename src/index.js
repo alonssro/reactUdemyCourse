@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// Create a new component. This components should produce HTML
+const API_KEY = process.env.API_KEY_YOUTUBE;
 
+// Create a new component. This components should produce HTML
 const App = () => {
   return <div> Hi </div>;
 };
